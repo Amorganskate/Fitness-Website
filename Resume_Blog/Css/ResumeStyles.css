@@ -1,0 +1,56 @@
+﻿
+#Main_Container{margin: auto; background-color:#000000;}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Oswald';
+    text-transform:uppercase;
+    margin-top:10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+.Nav_Text{font-family:Oswald;font-weight:bold;font-size:14px;text-transform:uppercase; color:#ffffff; display:block;}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../Fonts/Oswald Regular.woff') format('woff');
+}
+.Icon_Colors{color:ghostwhite; padding:5px;}
+.Icon_Colors:hover{color:#3e8e41;}
+.Header_Column{width:1180px; display:inline;}
+.fright{float:right;}
+.Main_Content{padding: 15px 0px 0px 0px; width: 50%;margin-left: 25%;}
+h1{font-family:Oswald; font-weight:bold;text-transform:uppercase;color:#ffffff; display:block; border-bottom:solid 1px #00ff21;}
